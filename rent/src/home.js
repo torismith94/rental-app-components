@@ -9,11 +9,13 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className=".col-6 App">
         <header className="App-header">
           <h1 className="App-title">Welcome to RecreEntals.</h1>
-          <h2>A place to rent the small stuff (or the big stuff).</h2>
+          <h4 className="App-tile">A place to rent the small stuff (or the big stuff).</h4>
         </header>
+
+
       </div>
     );
   }
