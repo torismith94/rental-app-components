@@ -45,11 +45,30 @@ import './App.css';
             <div className="wideDiv">
               <a href="#">Home</a>
               <a href="#">Rent Stuff</a>
-              <a href="#">List Stuff</a>     
-                    
+              <a href="#">List Stuff</a>
+              <a href="#">My Profile</a>     
+            </div>   
+          </div>
+          <div className="navNarrow">
+            <i className="fa fa-bars fa-2x" onClick={this.burgerToggle}></i>
+            <div className="narrowLinks">
+              <a href="#" onClick={this.burgerToggle}>Home</a>
+              <a href="#" onClick={this.burgerToggle}>Rent Stuff</a>
+              <a href="#" onClick={this.burgerToggle}>List Stuff</a>
+              <a href="#" onClick={this.burgerToggle}>My Profile</a>
+            </div>
+          </div>
         </nav>
-      )
+      );
+    }, 
+    burgerToggle: function() {
+      let linksEl = document.querySelector('.narrowLinks');
+      if (linksEl.style.display === 'block') {
+        linksEl.style.display = 'none';
+      } else {
+        linksEl.style.display = 'block';
+      }
     }
-   })
+   });
 
 export default Header;
