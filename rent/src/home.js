@@ -4,17 +4,15 @@
 // Down arrow (maybe just part of "homepage" component?)
 
 import React, { Component } from 'react';
+import Profile from './components/Profile';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className=".col-6 App">
-        <header className="App-header">
-          <h1 className="App-title">Welcome to RecreEntals.</h1>
-          <h4 className="App-tile">A place to rent the small stuff (or the big stuff).</h4>
-        </header>
-
+      <div className="Home">
+      Welcome to RecreEntals. 
+      <Profile />
 
       </div>
     );
