@@ -36,7 +36,7 @@ import './App.css';
 //       );
 //     }
 //   }
-
+// export default Header;
   const NavComponent = React.createClass({
     render: function(){
       return (
@@ -60,15 +60,7 @@ import './App.css';
           </div>
         </nav>
       );
-    }, 
-    burgerToggle: function() {
-      let linksEl = document.querySelector('.narrowLinks');
-      if (linksEl.style.display === 'block') {
-        linksEl.style.display = 'none';
-      } else {
-        linksEl.style.display = 'block';
-      }
     }
-   });
+  }
 
-export default Header;
+  ReactDOM.render(<NavComponent />, document.querySelector('navbar'));
