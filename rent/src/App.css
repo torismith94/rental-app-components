@@ -1,4 +1,8 @@
-
+@media screen and (max-width: 640px) {
+	.banner-full-width {
+        background-image: url('') !important;
+    }
+}	
 
 .App {
   text-align: center;
