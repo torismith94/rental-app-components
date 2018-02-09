@@ -7,6 +7,12 @@ class Header extends Component {
   render() {
     return (
       <div className=".col-5"> 
+        <ul>
+          <li>Home</li>
+          <li>List Items</li>
+          <li>Rent Items</li>
+          <li>My Profile</li>
+        </ul>
       </div>
     );
   }
