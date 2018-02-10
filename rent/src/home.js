@@ -6,15 +6,18 @@
 import React, { Component } from 'react';
 import Profile from './components/profile';
 import Splash from './components/splash';
+import AllProducts from './components/all-products';
 import './App.css';
+
 
 class App extends Component {
   render() {
     return (
-      <div className="Home">
+      <div>
+      <Splash />
       Welcome to RecreEntals. 
       <Profile />
-      <Splash />
+      <AllProducts />
       </div>
     );
   }

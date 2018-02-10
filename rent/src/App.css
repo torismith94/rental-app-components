@@ -7,6 +7,11 @@ h1 {
 	font-family: 'Nixie One', cursive;
 }
 
+html, body{
+  width: 100%;
+  height: 100%;
+}
+
 body {
   padding: 50px;
   font-family: 'Open Sans', sans-serif;
@@ -17,5 +22,12 @@ body {
 }
 
 #splash {
-  background: url('./bg.jpg');
+  height: 100%;
+  width: 100%;
+  background-image: url('./bg.jpg');
+  background-size: contain;
+}
+
+.products{
+  text-align: center;
 }
