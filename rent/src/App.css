@@ -3,6 +3,15 @@ nav {
   
 }
 
+h1 {
+	font-family: 'Nixie One', cursive;
+}
+
+body {
+  padding: 50px;
+  font-family: 'Open Sans', sans-serif;
+}
+
 .profile-img {
   border-radius: 50%;
 }
