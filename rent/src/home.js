@@ -4,7 +4,8 @@
 // Down arrow (maybe just part of "homepage" component?)
 
 import React, { Component } from 'react';
-import Profile from './Components/profile';
+import Profile from './components/profile';
+import Splash from './components/splash';
 import './App.css';
 
 class App extends Component {
@@ -13,7 +14,7 @@ class App extends Component {
       <div className="Home">
       Welcome to RecreEntals. 
       <Profile />
-
+      <Splash />
       </div>
     );
   }
