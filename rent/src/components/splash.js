@@ -28,3 +28,5 @@ class Splash extends Component {
         );
     }
 }
+
+export default Splash;
