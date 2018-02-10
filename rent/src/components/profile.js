@@ -6,6 +6,8 @@ class Profile extends Component {
     return (
       <div className="Profile">
             My Profile
+            <img class="profile-img" src="img.jpg" alt="username">
+            <h1>My Name</h1>
       </div>
     );
   }
