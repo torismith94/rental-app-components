@@ -6,3 +6,7 @@ nav {
 .profile-img {
   border-radius: 50%;
 }
+
+#splash {
+  background: url('./bg.jpg');
+}
