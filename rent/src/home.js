@@ -4,7 +4,7 @@
 // Down arrow (maybe just part of "homepage" component?)
 
 import React, { Component } from 'react';
-import Profile from './Components/Profile';
+import Profile from './Components/profile';
 import './App.css';
 
 class App extends Component {
