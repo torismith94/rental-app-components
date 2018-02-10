@@ -5,9 +5,11 @@ class Profile extends Component {
   render() {
     return (
       <div className="Profile">
-            My Profile
-            <img class="profile-img" src="img.jpg" alt="username">
+            <img className="profile-img" src="http://via.placeholder.com/200x200" alt=""/>
             <h1>My Name</h1>
+            <p className="Bio">Bio goes here</p>
+            <p>Member since: </p>
+            <p><button className="contact-button">Contact</button></p>
       </div>
     );
   }
