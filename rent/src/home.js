@@ -18,7 +18,7 @@ class App extends Component {
       Welcome to RecreEntals. 
       <Profile />
       <AllProducts />
-      </div>
+      </div> 
     );
   }
 }
